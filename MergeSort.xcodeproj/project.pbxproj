@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D460EA91BC579CD00C6BFC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D460EA81BC579CD00C6BFC5 /* main.m */; };
+		8D460EB11BC579F900C6BFC5 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D460EB01BC579F900C6BFC5 /* MergeSort.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		8D460EA51BC579CD00C6BFC5 /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D460EA81BC579CD00C6BFC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D460EAF1BC579F900C6BFC5 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		8D460EB01BC579F900C6BFC5 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8D460EA81BC579CD00C6BFC5 /* main.m */,
+				8D460EAF1BC579F900C6BFC5 /* MergeSort.h */,
+				8D460EB01BC579F900C6BFC5 /* MergeSort.m */,
 			);
 			path = MergeSort;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D460EB11BC579F900C6BFC5 /* MergeSort.m in Sources */,
 				8D460EA91BC579CD00C6BFC5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
